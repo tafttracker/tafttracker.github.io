@@ -53,25 +53,20 @@
 
 									<!-- Sidebar -->
 										<section>
-											<h3>Subheading</h3>
-											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-											Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-											Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-											consequat etiam.</p>
+											<h3>Progress Graph</h3>
+											<p>Your workout progress will be reflected on the graph below.</p>
 											<footer>
-												<a href="#" class="button icon solid fa-info-circle">Find out more</a>
+												<div class="col-6"><a href="#" class="image featured"><img src="images/samplegraph.png" alt="" /></a></div>
 											</footer>
 										</section>
 
 										<section>
-											<h3>Subheading</h3>
+											<h3></h3>
 											<ul class="style2">
-												<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-												<li><a href="#">Ornare in hendrerit in lectus</a></li>
-												<li><a href="#">Semper mod quis eget mi dolore</a></li>
-												<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-												<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-												<li><a href="#">Semper mod quisturpis nisi</a></li>
+												<li><a href="#">I'm exceeding the goal</a></li>
+												<li><a href="#">I'm right on the goal</a></li>
+												<li><a href="#">I'm below the goal</a></li>
+												<li><a href="#">How is the graph calculated?</a></li>
 											</ul>
 										</section>
 
@@ -83,31 +78,36 @@
 									<!-- Content -->
 										<article>
 
-											<h2>Left Sidebar</h2>
+											<h2>Log your workouts!</h2>
 
-											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-											Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-											Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-											consequat etiam lorem ipsum dolor sit amet nullam.</p>
+											<p>Here, runners can log their workouts to see their progress on the graph to the left.</p>
 
-											<h3>More intriguing information</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-											justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-											ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-											vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-											Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-											rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-											Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-											Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.</p>
-
-											<p>Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim
-											quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu.
-											Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
-											fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
-											Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu.
-											Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.</p>
-
+											<h3>Predictions/End of Season Goal</h3>
+											<p>To run faster and reach your goal as a runner, log in your daily workouts here! Whether you are exceeding, meeting, or below the predicted line, you can read your personlaized advice and workout suggestions to aim for the achievable end-of-season goal!!</p>
 										</article>
+										<form action="action_page.php" method="post">
+
+
+											<div class="container">
+											  <label for="uname"><b>Date</b></label>
+											  <input type="date" placeholder="01/01/2022" name="uname" required> <div br=""></div>
+
+											  <label for="uname"><b>Workout</b></label>
+											  <input type="text" placeholder="Enter Workout detail" name="uname" required> <div br=""></div>
+											  
+											  <label for="uname"><b>Weather</b></label>
+											  <input type="text" placeholder="What's the weather like?" name="uname" required> <div br=""></div>
+											   
+										
+											  <button type="submit">Submit</button> <div br=""></div>
+											  <label>
+												<input type="checkbox" checked="checked"> We love running! <div br=""></div>
+											  </label>
+											   
+										
+											</div>
+										  </form>
+									
 
 								</div>
 							</div>
