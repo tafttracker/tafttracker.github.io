@@ -1583,6 +1583,10 @@ input, select, textarea {
 
 /* Image */
 
+	.creators{
+		height: 14em;
+		border-radius: 5%;
+	}
 	.image {
 		display: inline-block;
 		outline: 0;
