@@ -7,9 +7,9 @@ def home():
   return render_template("index.html")
   #HTML5 no need for dash in headings
 
-@app.route("/injurychart/feet.html")
+@app.route("/injurypage/feet.html")
 def feet():
-  return render_template("injury/injurychart/feet.html")
+  return render_template("injury/injurypage/feet.html")
   #HTML5 no need for dash in headings
 
 @app.route("/<name>") #<name> acts as a placeholder for any name
